@@ -1,0 +1,27 @@
+{
+    "name": "proj",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "servo": "*",
+        "pxt-kitronik-motor-driver": "github:kitronikltd/pxt-kitronik-motor-driver#v0.0.7",
+        "bluetooth": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
